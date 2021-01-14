@@ -1,0 +1,37 @@
+html,body 
+{
+	font-family:Gorgia;
+	background:#208ecd;
+}
+
+#welcome
+{
+	text-align:center;
+}
+
+#newsletter
+{
+	text-align:center;
+}
+
+#plans
+{
+	text-align:center;
+}
+
+#bmi
+{
+	text-align:center;
+}
+
+footer
+{
+	text-align:center;
+}
+
+#img_plans
+{
+	width:320px;
+	height:auto;
+}
+
