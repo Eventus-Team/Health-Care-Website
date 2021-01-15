@@ -2,35 +2,41 @@ html,body
 {
 	font-family:Gorgia;
 	background:#208ecd;
-	height:100%;
 }
 
 nav
 {
-	height:56px;
+	
 }
 
 #welcome
 {
 	text-align:center;
-	height:1000px;
+	padding:20px;
+}
+
+#img_baner
+{
+	width:auto;
+	height:100%;
 }
 
 #plans
 {
 	text-align:center;
+	padding:20px;
 }
 
 #bmi
 {
 	text-align:center;
-	height:120px;
+	padding:20px;
 }
 
 #newsletter
 {
 	text-align:center;
-	height:110px;
+	padding:20px;
 }
 
 footer
@@ -38,6 +44,7 @@ footer
 	text-align:center;
 	background:white;
 	height:auto;
+	border:10px;
 }
 
 #img_plans
@@ -46,3 +53,26 @@ footer
 	height:auto;
 }
 
+#bmi_cal_button, #health_plan_button, #clever_plan_button, #family_plan_button
+{
+	background-color:Gainsboro;
+	border: solid 1px black;
+	color:black;
+}
+
+#newsletter_email
+{
+	border-color:black;
+}
+
+.form-control::placeholder
+{
+  color: black;
+}
+
+#button-addon2
+{
+	background-color:Gainsboro;
+	color:black;
+	border-color:black;
+}

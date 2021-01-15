@@ -45,15 +45,17 @@
     <section id="welcome">
 
         <div class="container">
-
-            <h1>Impoving the lives of our patiens and their families</h1>
+		
+			<h1>Impoving the lives of our patiens and their families</h1>
+		
+            <div class="row">
+                <div class="col-sm baner">
+                    <img src="img/baner.jpg" class="img-fluid" id="img_baner"/>
+                </div>
 
         </div>
 
     </section>
-
-    <!-- newsletter-->
-
 
     <!-- plan -->
     <section id="plans">
@@ -62,17 +64,17 @@
                 <div class="col-sm plan">
                     <img src="img/breast-5472788_640.png" class="img-fluid" id="img_plans"/>
                   <h3>Health Plan</h3>
-                  <button class="btn btn-primary">Check</button>
+                  <button class="btn btn-primary" id="health_plan_button">Check</button>
                 </div>
                 <div class="col-sm plan">
                     <img src="img/breast-5472788_640.png" class="img-fluid " id="img_plans" />
                     <h3>Clever Plan</h3>
-                    <button class="btn btn-primary">Check</button>
+                    <button class="btn btn-primary" id="clever_plan_button">Check</button>
                 </div>
                 <div class="col-sm plan">
                     <img src="img/breast-5472788_640.png" class="img-fluid" id="img_plans" />
                     <h3>Family Plan</h3>
-                    <button class="btn btn-primary">Check</button>
+                    <button class="btn btn-primary" id="family_plan_button">Check</button>
                 </div>
             </div>
         </div>
@@ -82,10 +84,11 @@
         <div class="container">
             <h2>Calculate your BMI!</h2>
             <h5>Try our new calculator here!</h5>
-            <a class="btn btn-primary" href="https://szymon90452.github.io/BMI_Calculator/">Here!</a>
+            <a class="btn btn-primary" href="https://szymon90452.github.io/BMI_Calculator/" id="bmi_cal_button">Here!</a>
         </div>
     </section>
 	
+	<!-- newsletter-->	
 	<section id="newsletter">
 
         <div class="container">
@@ -93,11 +96,11 @@
             <h3>Sign up for Exclusive Offers and Articles</h3>
 
             <div class="input-group mb-8">
-                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
+                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2" id="newsletter_email">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sign Up</button>
             </div>
 
-        </div><br>
+        </div>
 
     </section>
 
