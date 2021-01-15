@@ -2,16 +2,18 @@ html,body
 {
 	font-family:Gorgia;
 	background:#208ecd;
+	height:100%;
+}
+
+nav
+{
+	height:56px;
 }
 
 #welcome
 {
 	text-align:center;
-}
-
-#newsletter
-{
-	text-align:center;
+	height:1000px;
 }
 
 #plans
@@ -22,11 +24,20 @@ html,body
 #bmi
 {
 	text-align:center;
+	height:120px;
+}
+
+#newsletter
+{
+	text-align:center;
+	height:110px;
 }
 
 footer
 {
 	text-align:center;
+	background:white;
+	height:auto;
 }
 
 #img_plans
