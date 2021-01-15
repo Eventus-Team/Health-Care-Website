@@ -73,11 +73,12 @@ footer
 	height:auto;
 }
 
-#bmi_cal_button, #health_plan_button, #clever_plan_button, #family_plan_button
+#bmi_button, #health_plan_button, #clever_plan_button, #family_plan_button
 {
 	background-color:Gainsboro;
 	border: solid 1px black;
 	color:black;
+	margin-top:3px;
 }
 
 #newsletter_email
