@@ -1,27 +1,33 @@
 <html>
+
 <head>
-<title>Formularz</title>
+    <title>Form</title>
 </head>
 
 <body>
+<form>
+    <br>
+    <p><h2>Contact details</h2></p>
+        Imię: <input name="Name"> 
+        Nazwisko: <input name="Last name"><br>
+        Telefon: <input name="Phone number" size="9"><br>
+        Wiek: <input wiek="Ages" size="6">
+        email: <input email="email">
+    <p>What do you want to test (You can select more than one)?</p>
+    <input type="checkbox" name="Medical_examinaton" value="Medical checkup">Medical checkup<br>
+    <input type="checkbox" name="Medical_examinaton" value="Preliminary medical research">Preliminary medical research<br>
+    <input type="checkbox" name="Medical_examinaton" value="Periodic medical examination">Periodic medical examination<br>
+    <input type="checkbox" name="Medical_examinaton" value="Other">Other (Write some):
+    <input name="other">
+    <!-- Komentarz -->
+    <br>
+    <p>Special information:</p>
+    <textarea name="comment" cols="50" rows="10"></textarea>
+    <br><br><br>
+    <input type="submit" value="Sing up" />
+</form>
 
-<br>
-<p><h2>Dane Kontaktowe</h2></p>
-Imię: <input name="Imię"> Nazwisko: <input name="Nazwisko"><br>
-Telefon: <input name="Telefon" size="9"><br>
-Wiek: <input wiek="Wiek" size="6">
-email: <input email="email">
-<p>Na co chcesz sie przebadać (możesz zaznaczyć więcej możliwości)?</p>
-<input type="checkbox" name="Badanie" value="Badanie kontrolne">Badanie kontrolne<br>
-<input type="checkbox" name="Badanie" value="Badanie Okresowe">Badanie Okresowe<br>
-<input type="checkbox" name="Badanie" value="Badanie wstepne">Badanie wstepne<br>
-<input type="checkbox" name="Badanie" value="Inna">Inna (podaj jaka):
-<input name="Badanie">
-<!-- Komentarz -->
-<br>
-<p>Dodatkowe informacje:</p>
-<textarea name="Komentarz" cols="50" rows="10"></textarea>
-<br><br><br>
 
 </body>
+
 </html>
