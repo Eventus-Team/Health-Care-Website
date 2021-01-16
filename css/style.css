@@ -1,50 +1,71 @@
 html,body 
 {
-	font-family:Gorgia;
+	font-family:'Georgia';
 	background:#208ecd;
 }
 
-nav
-{
-	
+.section_title{
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding: 10px;
 }
 
 #welcome
 {
 	text-align:center;
 	padding:20px;
+	background-image: url("/img/baner.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 95vh;
 }
 
-#img_baner
-{
-	width:auto;
-	height:100%;
+#welcome h1{
+	padding-top: 30vh;
+	text-transform: uppercase;
+	-webkit-text-stroke: 2px black; /* width and color */
 }
 
 #plans
 {
 	text-align:center;
-	padding:20px;
+	padding-top:25px;
+	padding-bottom:25px;
+	color:white
+}
+
+.plan{
+	padding-bottom: 20px;
+}
+
+.plan h3{
+	padding-top: 10px;
 }
 
 #bmi
 {
 	text-align:center;
 	padding:20px;
+	background:#047abe;
+	color:white
 }
 
 #newsletter
 {
 	text-align:center;
-	padding:20px;
+	padding-top:20px;
+	padding-bottom:35px;
+	background:#036096;
+	color:white
+	
 }
 
 footer
 {
+	align:center;
 	text-align:center;
 	background:white;
-	height:auto;
-	border:10px;
+	padding:1px;
 }
 
 #img_plans
@@ -53,11 +74,12 @@ footer
 	height:auto;
 }
 
-#bmi_cal_button, #health_plan_button, #clever_plan_button, #family_plan_button
+#bmi_button, #health_plan_button, #clever_plan_button, #family_plan_button
 {
 	background-color:Gainsboro;
 	border: solid 1px black;
 	color:black;
+	margin-top:3px;
 }
 
 #newsletter_email
