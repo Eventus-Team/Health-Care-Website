@@ -1,0 +1,42 @@
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+html,body 
+{
+	font-family:'Georgia';
+	background: rgb(32,142,205);
+	background: linear-gradient(180deg, rgba(32,142,205,1) 0%, rgba(3,96,150,1) 100%);
+}
+
+#form
+{
+	height: 88vh;
+	padding-top:10px;
+}
+
+#form_button
+{
+	background-color:Gainsboro;
+	border: solid 1px black;
+	color:black;
+	margin-top:10px;
+}
+
+footer
+{
+	align:center;
+	text-align:center;
+	background:white;
+	padding:3px;
+}
