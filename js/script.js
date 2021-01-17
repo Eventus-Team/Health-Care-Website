@@ -7,3 +7,8 @@ countBMI = () => {
 
     valuebmi.innerHTML = "Your BMI is "+value.toFixed(0);
 }
+
+function autors()
+{
+	document.getElementById("authors").innerHTML="Autors: Michał Bej, Szymon Janiak, Miłosz Stachowiak";
+}
